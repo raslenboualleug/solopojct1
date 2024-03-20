@@ -1,0 +1,139 @@
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+      background-image: url('./img/th\ \(1\).jfif');
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+     
+    }
+    #pg{
+      
+        font-size: 160px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    #pg{
+        color: transparent;
+        -webkit-text-stroke: 3px rgb(22, 15, 226);
+       position: relative;
+
+    }
+    #pg::before{
+        content:"MathMarvel" ;
+        position: absolute;
+        overflow: hidden;
+        color: rgb(12, 32, 217);
+        border-right: 8px solid rgb(100, 15, 211);
+        transition:  ease-in-out;
+        animation: colorslide 10s infinite;
+    }
+ 
+    @keyframes colorslide {
+        0% {
+            width: 0%; 
+        }
+        50% {
+            width: 100%; 
+        }
+        100% {
+            width: 0%; 
+            filter: drop-shadow(0 10px 25px rgb(29, 7, 219));
+        }
+        
+    }
+    .calc-dispaly {
+        width: 60%;
+        padding: 10px;
+        margin-bottom: -80px;
+        font-size: 50px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: -40px;
+        margin-top: 100px;
+        height: 200px;
+        border-color: #000000;
+        background: #000000;
+        color: #f5f5f5;
+        text-align: right;
+        text-align: top;
+    }
+    
+    .but {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .but {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 30px;
+        background-color: #7b7977;
+        color: white;
+        justify-content: CENTER;
+    }
+    
+    .but:hover {
+        background-color: #45a049;
+    }
+    
+   
+    
+
+  #op{
+    background-color: #e98f10;
+  }
+    #op:hover {
+        background-color: #cc6e17;
+    }
+   #frame {
+        width: 300px; 
+        height: 600px; 
+        background: #000000; 
+        border-radius: 40px;
+        box-shadow: 0 20px 20px rgba(10, 10, 0, 2);
+       display: flex; 
+         align-items: center; 
+        position: relative; 
+        border-color: #000;
+        border: 10px solid #333;
+       
+        
+    }
+    
+
+    #frame::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px; 
+        height: 25px; 
+        background: #1e1d1d;
+        border-radius: 0 0 15px 15px;
+    }
+    #signal{
+        margin-right: 50px;
+    }
+    
+    
+    
