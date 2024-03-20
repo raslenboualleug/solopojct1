@@ -9,9 +9,5 @@ function reset() {
     // resette
     $('.calc-dispaly').val('')
 }
-    
-
-
-
-const audio=new Audio()
+    const audio=new Audio()
 audio.src="./audio/click - Réalisée avec Clipchamp_1710940108879.mp3"
